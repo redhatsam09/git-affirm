@@ -75,8 +75,8 @@ Git Affirm provides several configuration options to customize its behavior:
 
 Git Affirm follows this process:
 
-1. When a deployment is triggered, it analyzes all PRs merged in the past week (or your specified timeframe)
-2. It uses emoji sentiment analysis to identify positive emojis in PR titles
+1. When a deployment is triggered, it analyzes all PRs merged in the past week
+2. It uses sentiment analysis to identify positive emojis in PR titles
 3. If at least one PR with a positive emoji was merged, deployment proceeds
 4. If no positive emoji PRs were found, but the current PR has a positive emoji, deployment proceeds (second-chance mode)
 5. If neither condition is met, deployment is blocked with a helpful message
