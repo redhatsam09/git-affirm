@@ -73,6 +73,13 @@ Git Affirm provides several configuration options to customize its behavior:
 
 ## How It Works
 
+### Without Emoji
+<img width="1439" height="746" alt="Fail" src="https://github.com/user-attachments/assets/283d0c1a-866a-433c-8bf0-4fe4a1e088c5" />
+
+### Merged PR with Positive Emoji
+<img width="1446" height="642" alt="Success" src="https://github.com/user-attachments/assets/f75bd4ef-f94e-4dc6-9c01-1a21c56c0674" />
+
+
 Git Affirm follows this process:
 
 1. When a deployment is triggered, it analyzes all PRs merged in the past week
