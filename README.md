@@ -6,9 +6,8 @@ Git Affirm promotes a positive team culture by ensuring your team includes posit
 
 ![Git Affirm Logo](https://img.shields.io/badge/Git-Affirm-%23FF69B4?logo=github&logoColor=white)
 ![GitHub Marketplace](https://img.shields.io/badge/GitHub-Marketplace-green.svg?logo=github)
-![License](https://img.shields.io/github/license/redhatsam09/git-affirm) 
 
-## 🚀 Installation
+## Installation
 
 Add Git Affirm to your GitHub workflow in just a few simple steps:
 
@@ -55,7 +54,7 @@ jobs:
           exit 1
 ```
 
-## ⚙️ Configuration Options
+## Configuration Options
 
 Git Affirm provides several configuration options to customize its behavior:
 
@@ -72,7 +71,7 @@ Git Affirm provides several configuration options to customize its behavior:
 | `can-deploy` | Whether deployment should be allowed (`true` or `false`) |
 | `message` | Explanation of why deployment was allowed or blocked |
 
-## 🎯 How It Works
+## How It Works
 
 Git Affirm follows this process:
 
@@ -82,15 +81,3 @@ Git Affirm follows this process:
 4. If no positive emoji PRs were found, but the current PR has a positive emoji, deployment proceeds (second-chance mode)
 5. If neither condition is met, deployment is blocked with a helpful message
 
-
-## License
-
-MIT
-
-## Author
-
-Created by [@redhatsam09](https://github.com/redhatsam09)
-
----
-
-Found this useful? ⭐ Star the repository on [GitHub](https://github.com/redhatsam09/git-affirm)!
