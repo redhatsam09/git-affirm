@@ -1,0 +1,31 @@
+name: 'Git Affirm'
+description: 'Refuses to deploy if your team has not merged a PR with a positive emoji in the title that week'
+author: 'redhatsam09'
+
+inputs:
+  github-token:
+    description: 'GitHub token to access the repository'
+    required: true
+    default: ${{ github.token }}
+  days-to-check:
+    description: 'Number of days to look back for PRs with positive emojis'
+    required: false
+    default: '7'
+  second-chance:
+    description: 'If true, the current PR is also checked for a positive emoji as a second chance'
+    required: false
+    default: 'true'
+
+outputs:
+  can-deploy:
+    description: 'Whether deployment is allowed to proceed'
+  message:
+    description: 'Message explaining why deployment was allowed or blocked'
+
+branding:
+  icon: 'smile'
+  color: 'green'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
