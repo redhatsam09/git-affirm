@@ -1,4 +1,4 @@
-# Git Affirm 😊
+# Git Affirm
 
 > A GitHub Action that refuses to deploy if your team hasn't merged a PR with a positive emoji in the title that week.
 
@@ -83,11 +83,11 @@ Git Affirm follows this process:
 5. If neither condition is met, deployment is blocked with a helpful message
 
 
-## 📄 License
+## License
 
 MIT
 
-## 🧑‍💻 Author
+## Author
 
 Created by [@redhatsam09](https://github.com/redhatsam09)
 
