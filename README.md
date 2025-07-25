@@ -7,6 +7,8 @@ Git Affirm promotes a positive team culture by ensuring your team includes posit
 ![Git Affirm Logo](https://img.shields.io/badge/Git-Affirm-%23FF69B4?logo=github&logoColor=white)
 ![GitHub Marketplace](https://img.shields.io/badge/GitHub-Marketplace-green.svg?logo=github)
 
+https://github.com/user-attachments/assets/ce187432-7184-42e4-b4e6-362ada0a96ab
+
 ## Installation
 
 Add Git Affirm to your GitHub workflow in just a few simple steps:
